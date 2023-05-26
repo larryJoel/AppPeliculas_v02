@@ -1,0 +1,7 @@
+{
+  "name": "CarteleraApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
