@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      App - Cartelera
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,22 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">App-Movie</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <strong>¿Quieres ver Alguna pelicula?</strong>
+    <p>Busca en nuetra App los extrenos más recientes</p>
+    <a href="buscar">Buscar</a>
+    <hr>
+    <ion-button Href="pelicula-list">
+      <ion-button expand="block">Ver..</ion-button>
+    </ion-button>
+    <hr>
+    <p>Un mundo de Películas..</p>
+    <br>
+    <strong><a (click)="salir()">Salir</a></strong>
+    
   </div>
 </ion-content>
